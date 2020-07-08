@@ -6,7 +6,7 @@ import (
 )
 
 
-func waitgroup() {
+func waitGroup() {
 	var wg sync.WaitGroup
 	var counter int
 	var l sync.Mutex
